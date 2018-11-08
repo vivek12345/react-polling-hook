@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+  - "v8.10.0"
+cache: yarn
+branches:
+  only: 
+    - master
+script:
+  - yarn test
