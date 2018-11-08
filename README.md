@@ -24,7 +24,7 @@ npm i react-polling-hook --save
 
 ```javascript
 import React, { Fragment } from 'react';
-import { usePolling } from 'react-polling-hook;
+import { usePolling } from 'react-polling-hook';
 
 const App = () => {
   const [isPolling, startPolling, stopPolling] = usePolling({
