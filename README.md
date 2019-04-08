@@ -29,7 +29,7 @@ import { usePolling } from 'react-polling-hook';
 const App = () => {
   const [isPolling, startPolling, stopPolling] = usePolling({
     url: 'url to poll',
-    interval: 3000. // in milliseconds(ms)
+    interval: 3000, // in milliseconds(ms)
     retryCount: 3, // this is optional
     onSuccess: () => console.log('handle success'),
     onFailure: () => console.log('handle failure'), // this is optional
