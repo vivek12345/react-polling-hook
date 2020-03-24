@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.com/vivek12345/react-polling-hook.svg)](https://travis-ci.com/vivek12345/react-polling-hook)
 
+> ⚠️ Not yet published on npm and is not being currently developed. If you still need it, please fork the repo.
+
 Easy to use polling service built with react that uses the new React Hooks(Note: This is an alpha release)
 
 **Note: Read more about react hooks here  [React hooks](https://reactjs.org/docs/hooks-intro.html)**
